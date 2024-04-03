@@ -1,0 +1,17 @@
+// condicionales
+
+@mixin condicion ($colores-cuatro){
+
+    background-color: $colores-cuatro;
+    
+    //condicion
+    @if $colores-uno == tomato{
+        border: 1px solid rgb(255, 0, 0);
+        padding: 1rem;
+    } @else {
+        border: 2px solid orange;
+        padding: 3rem;
+
+    }
+
+}

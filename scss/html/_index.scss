@@ -1,0 +1,21 @@
+/* estilos de header */
+
+header{
+    //@include flex;
+    nav{
+        ul{
+            list-style: block;
+            @include flex;
+        }
+    }
+}
+
+/* estilos de body */
+
+ body{
+
+    padding: 1rem;
+   background-size: cover;
+   //background: linear-gradient(264deg, rgb(236, 233, 147)  48%, rgb(236, 233, 147)  52%, rgb(236, 233, 147)  54%, rgbrgb(236, 233, 147)  56%, rgb(236, 233, 147)  58%, rgb(236, 233, 147)68%, rgb(236, 233, 147) 100%);
+    background-color: rgb(236, 233, 147);
+    }

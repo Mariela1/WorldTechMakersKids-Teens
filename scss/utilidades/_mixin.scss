@@ -1,0 +1,66 @@
+// Lo utilizamos para poder reutilizar codigo
+
+// mixin con parametros
+
+@mixin medidas($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+    background-color: rgb(113, 133, 113);
+    padding: 2rem;
+    margin: 1rem;
+}
+
+@mixin flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem ;
+    margin: 1rem;
+}
+
+@mixin row{
+    list-style: none;
+    display:flex;
+    flex-direction:row;
+    padding: 2rem ;
+    margin: 1rem;
+}
+
+@mixin conten{
+    gap: 1rem;
+        height: 600vh;
+        padding:1px;
+        margin: 5rem;
+        font-size:1rem;
+        //background-color: rgb(250, 242, 22);
+        background-color: rgb(236, 233, 147);
+        display: grid;
+        border-radius:rgb(0, 239, 88);
+        gap:1rem;
+}
+
+@mixin contain{
+    gap: 1rem;
+    height: 150vh;
+    margin: 4.5rem;
+    width: 1350px;
+    font-size:1em;
+    background-color: rgb(213, 253, 213);
+   // background-color: rgb(236, 233, 147);
+    display: grid;
+    justify-content: space-around;
+    color:black;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+//@mixin estilosSection{
+  //  text-align: center;
+    //font-size: 1rem;
+    //padding: 2rem ;
+    //margin: 1rem;
+    //background-color: rgb(255, 225, 0);
+    //padding: 1rem;
+//}
